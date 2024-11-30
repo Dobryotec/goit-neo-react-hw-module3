@@ -1,0 +1,36 @@
+.contact-content {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  justify-content: space-between;
+}
+
+.contact-information-wrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.contact-information {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  font-size: 18px;
+}
+
+.contact-button {
+  font-size: 18px;
+  width: 100px;
+  outline: transparent;
+  border: 1px solid black;
+  border-radius: 5px;
+  padding: 10px;
+  transition: all 0.3s ease;
+}
+
+.contact-button:hover,
+.contact-button:focus {
+  background-color: black;
+  color: white;
+  border-color: white;
+}
